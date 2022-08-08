@@ -6,26 +6,39 @@
     width: 3%;
 }
 header {
-    background-color: whitesmoke;
-    padding: 1.5% 4%;
-    box-shadow: 5px 20px 30px white;
+    
 }
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    padding: 1.5% 4%;
+    box-shadow: 5px 20px 30px white;
     align-items: center;
+}
+.leftNav {
+    width: 10%;
 }
 .right-nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 50%;
-    
+    width: 20%;
 }
-.right-nav a {
+.right-nav img {
+    width: 10%;
+}
+.middle-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+.middle-nav a {
     text-decoration: none;
     color: black;
 }
+
 .hero {
     background-image: url(sergio-capuzzimati-8LgFKTXac6g-unsplash.jpg);
     background-repeat: no-repeat;
