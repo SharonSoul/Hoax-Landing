@@ -1,0 +1,246 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.right-nav img {
+    width: 3%;
+}
+header {
+    background-color: whitesmoke;
+    padding: 1.5% 4%;
+    box-shadow: 5px 20px 30px white;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    
+}
+.right-nav a {
+    text-decoration: none;
+    color: black;
+}
+.hero {
+    background-image: url(sergio-capuzzimati-8LgFKTXac6g-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20% 20%;
+}
+.hero-content {
+    
+}
+span {
+    color: gray;
+}
+.logo {
+    font-size: 150%;
+    font-family: 'Castllar', 'Copperplate gothic';
+    letter-spacing: .2em;
+    font-weight: 900;
+}
+.hero-content h3 {
+    font-size: 150%;
+    margin-top: 2%;
+}
+.hero-content h3, .hero-content h1, .hero-content h4 {
+    margin-left: -15%;
+}
+.hero-content h4 {
+    margin-top: 2%;
+    font-weight: 200;
+    letter-spacing: .2em;
+}
+.hero-content h1 {
+    font-size: 250%;
+    letter-spacing: .3em;
+    margin-top: 2%;
+    font-family: 'Castllar', 'Copperplate gothic';
+}
+.hero-content h3 {
+    margin-top: -20%;
+    font-family: 'Bebas Neue';
+    letter-spacing: .2em;
+    color: gray;
+    font-weight: 900;
+}
+.hero-content button {
+    background-color: black;
+    padding: 2% 6%;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    margin: 15% 35%;
+    margin-bottom: -30%;
+    letter-spacing: .2em;
+    font-weight: 600;
+}
+.hero-content button:hover {
+    background-color: gray;
+    color: black;
+    font-weight: 700;
+}
+.button1 {
+    background-color: white;
+    padding: .8% 2.5%;
+    border: 1px solid black;
+    color: black;
+    border-radius: 30px;
+    margin: 1% .5%;
+    margin-bottom: ;
+    font-size: 80%;
+    letter-spacing: .2em;
+    font-weight: 600;
+}
+.button2 {
+    background-color: black;
+    font-size: 80%;
+    padding: 1% 2%;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    margin: 1% .5%;
+    margin-bottom: ;
+    letter-spacing: .2em;
+    font-weight: 600;
+}
+.button3 {
+    background-color: black;
+    padding: 1% 2%;
+    border: none;
+    color: white;
+    font-size: 80%;
+    border-radius: 20px;
+    margin: 1% .5%;
+    margin-bottom: ;
+    letter-spacing: .2em;
+    font-weight: 600;
+}
+.latest {
+    font-size: 200%;
+    letter-spacing: .1em;
+    font-family: 'Castllar', 'Copperplate gothic';
+}
+.next-hero {
+    padding: 8%;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+.pic-cont {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.left-picont {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-right: 1%;
+}
+
+.left-flex {
+    display: flex;
+    flex-direction: column;
+}
+#left-height {
+    height: 82vh;
+    margin-left: 1%;
+}
+.down {
+    margin-bottom: 1%;
+}
+
+
+.right-picont {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 0.8%;
+    
+}
+.right-picont img {
+    width: 15em;
+    height: 15em;
+}
+.right-width {
+    width: 81.5vh;
+    height: 45vh;
+    margin-bottom: 5%;
+}
+.right-flex {
+    display: flex;
+}
+.left-picont img {
+    width: 15em;
+    height: 15em;
+}
+
+/*LEFT HERO*/
+.left-hero {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: -2.2%;
+}
+.stretch {
+    width: 82vh;
+    height: 40.5vh;
+}
+.flex-it {
+    display: flex;
+}
+.flex-it img {
+    width: 15em;
+    height: 15em;
+    margin-top: 1%;
+}
+.left-it {
+    margin-right: 1%;
+}
+
+/*FOOTER*/
+footer {
+    background-color: black;
+    margin-top: -6%;
+    padding: 2% 2%;
+}
+.foot-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 30%;
+}
+.logo-foot {
+    font-size: 150%;
+    font-family: 'Castllar', 'Copperplate gothic';
+    letter-spacing: .2em;
+    font-weight: 900;
+    color: gray;
+}
+.logo-foot span {
+    color: rgb(181, 185, 185);
+}
+.foot-container .foot-para, .foot-container .copy {
+    color: white;
+    margin: 4% 1%;
+}
+.foot-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4% 1%;
+}
+.foot-icons img {
+    width: 10%;
+}
+.foot-para {
+    letter-spacing: .3em;
+}
